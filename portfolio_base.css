@@ -6,13 +6,40 @@ body {
     color: black;
 }
 #NavigationBar{
-    display: block;
+    display: flex;
 }
+#NavigationBar ul {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333;
+    height: 30px;
+    width: 100%;
+    font-size: 0.9em;
+}
+/* #NavigationBar ul  > li {
+	display: flex;
+    width: 100%;
+	
+	color: white; 
+	height: 100%;
+	text-align: center;
+	vertical-align:middle;
+} */
+/* #NavigationBar a.active {
+  color: ;
+} */
 a:link {
     color: white;
 }
 a:visited {
     color: #000000;
+}
+a:hover {
+    color: grey;
 }
 #PageTitle{
     text-align: center;
@@ -39,3 +66,7 @@ a:visited {
 	-webkit-filter: grayscale(0);
 	filter: grayscale(0);
 }
+ul.ContactList {
+    list-style-type: circle;
+    margin: 0;
+  }
