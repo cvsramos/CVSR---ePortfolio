@@ -20,9 +20,8 @@
 			margin-bottom: 5px;
 		}
 
-		input[type="text"],
-		input[type="email"],
-		textarea {
+		input[type="text"], input[type="email"], textarea {
+            font-family: Fixedsys, monospace;
 			width: 100%;
 			padding: 10px;
 			margin-bottom: 10px;
@@ -43,10 +42,6 @@
 			font-size: 16px;
 			margin-top: 10px;
 		}
-
-		input[type="submit"]:hover {
-			background-color: black;
-		}
 	</style>
 </head>
 
@@ -61,16 +56,17 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </div>
-    <div id="PageTitle">
-        <h1>Contacts</h1>
-    </div>   
     <div id="Splash_image">
         <img src="https://media.discordapp.net/attachments/1064535877927305347/1064536930349494292/RaPoZaUm_futuristic_fox_3_6f21ff64-2034-4335-8449-50240f7b6e14.png"
             width="250" alt="Image of a Futuristic Fox">
     </div>
+    <div id="PageTitle">
+        <h1>Contact</h1>
+    </div>   
+    
     <div id="Form">
         <h2 id="FormHeader">Wanna be in touch? Fill the form below!</h2>
-        <form action="mailto:cvsramos@gmail.com">
+        <form method="POST" data-netlify="true">
             <label for="fname">First Name</label>
             <input type="text" id="fname" name="firstname" placeholder="Your name..">
             <label for="lname">Last Name</label>
@@ -79,6 +75,7 @@
             <input type="text" id="email" name="email" placeholder="Your email..">
             <label for="Message">Message</label>
             <textarea id="text" name="text" placeholder="Write something.." rows="8" cols="40"></textarea>
-            <input type="submit" value="Submit"><br>
+            <button type="submit">Submit</button>
+            <div data-netlify-recaptcha="true"></div>
         </form>
 </body>
