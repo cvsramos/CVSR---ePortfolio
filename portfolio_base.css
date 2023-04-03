@@ -3,12 +3,24 @@
 /* CSS Document for Carlos Ramos' Portfolio*/
 body {
     background-color: rgba(39, 6, 6, 0.3);
-    font: 100%/1.4 Cambria, Arial, Helvetica, sans-serif;
+    font: 100%/1.4 'LektonRegular', Arial, Helvetica, sans-serif;
     color: black;
 }
 
+/* Font Styles */
+@font-face {
+    font-family: 'LektonRegular';
+    src: url('https://fonts.googleapis.com/css?family=Lekton');
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-display: swap;
+    src: url('https://fonts.gstatic.com/s/rubik/v14/iJWKBXyIfDnIV7nBrXyw023e.woff2') format('woff2');
+  }
+
 /* Style the navigation menu */
 .NavigationBar {
+    font: LektonRegular, sans-serif;
     overflow: hidden;
     background-color: black;
     position: relative;
@@ -21,6 +33,7 @@ body {
 
 /* Style navigation menu links */
 .NavigationBar a {
+    float: left;
     color: white;
     padding: 14px 16px;
     text-decoration: none;
@@ -51,8 +64,6 @@ body {
 
 /*Skills*/
 #SkillsContent {
-    font-size: 16px;
-    font-family: Arial, sans-serif;
     margin: 20px;
     padding: 10px;
     background-color: #f2f2f2;
@@ -80,6 +91,18 @@ body {
     /* Add bullet point before each list item */
     margin-right: 5px;
     color: #333;
+}
+
+#IndexPage, #Resume, #SkillsContent, #Contact, #Accomplishments  {
+    font-family: Rubik, LektonRegular, sans-serif;
+    font-size: 16px;
+}
+
+#Resume ul {
+    list-style-type: '> ';
+}
+#Contact ul {
+    list-style-type: none; 
 }
 
 #PageTitle {

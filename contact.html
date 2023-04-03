@@ -23,7 +23,7 @@
 		}
 
 		input[type="text"], input[type="email"], textarea {
-            font-family: Fixedsys, monospace;
+            font-family: Rubik, monospace;
 			width: 100%;
 			padding: 10px;
 			margin-bottom: 10px;
@@ -69,7 +69,16 @@
     </div>
     <div id="PageTitle">
         <h1>Contact</h1>
-    </div>   
+    </div>  
+    <div id="Contact">
+        <h2>Contact Information</h2>
+        <ul>
+          <li><i class="fa fa-map-marker"></i>6277 Young Street</li>
+          <li><i class="fa fa-phone"></i>(902) 989 3724</li>
+          <li><i class="fa fa-envelope"></i><a href="mailto:cvsramos@gmail.com">cvsramos@gmail.com</a></li>
+          <li><i class="fa fa-linkedin"></i><a href="https://www.linkedin.com/in/cvsramos/">linkedin.com/in/cvsramos</a></li>
+        </ul>
+      </div>
     
     <div id="Form">
         <h2 id="FormHeader">Wanna be in touch? Fill the form below!</h2>
@@ -84,7 +93,7 @@
             <textarea id="text" name="text" placeholder="Write something.." rows="8" cols="40"></textarea>
             <button type="submit">Submit</button>
             <div data-netlify-recaptcha="true"></div>
-        </form>
+        </form>          
         <script>
             function toggleNavigation() {
                 var x = document.getElementById("myLinks");
