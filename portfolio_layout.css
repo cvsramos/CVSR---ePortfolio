@@ -3,35 +3,6 @@
 /* CSS Layout for Carlos Ramos' Portfolio 
 Layout by Carlos Ramos
 Created: February, 15, 2023
-*/
-.item1 {
-    grid-area: title;
-    text-align: center;
-}
-
-.item2 {
-    grid-area: contact;
-}
-
-.item3 {
-    grid-area: skills;
-}
-
-.item4 {
-    grid-area: education;
-}
-
-.item5 {
-    grid-area: languages;
-}
-
-.item6 {
-    grid-area: profile;
-}
-
-.item7 {
-    grid-area: experience;
-}
 
 /* Media Queries */
 /* Mobile */
