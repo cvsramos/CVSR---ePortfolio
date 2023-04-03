@@ -61,14 +61,18 @@ body {
     color: white;
 }
 
-/*Skills*/
-#SkillsContent {
+#Resume {
+    text-align: center;
+}
+
+#SkillsContent, #IndexPage, #goals, #Resume, #Accomplishments, #Contact, #Form {
     margin: 20px;
     padding: 10px;
     background-color: #f2f2f2;
     border: 1px solid #ddd;
 }
 
+/*Skills*/
 #SkillsContent h2 {
     font-size: 24px;
     font-weight: bold;
@@ -87,7 +91,6 @@ body {
 
 #SkillsContent li:before {
     content: "\2022";
-    /* Add bullet point before each list item */
     margin-right: 5px;
     color: #333;
 }
@@ -98,8 +101,8 @@ body {
 }
 
 #Resume ul {
-    list-style-type: '> ';
-}
+    text-align: left;
+    }
 #Contact ul {
     list-style-type: none; 
 }
