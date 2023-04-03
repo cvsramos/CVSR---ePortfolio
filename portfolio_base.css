@@ -49,59 +49,37 @@ body {
     color: white;
 }
 
-/* #navigation-links{
-    display: flex;    
+/*Skills*/
+#SkillsContent {
+    font-size: 16px;
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    padding: 10px;
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
 }
 
-#navigation-links ul {
-    display: flex;
-    align-items: center;
-    justify-content: space-around;
-    list-style-type: none;
-    margin: 0px;
-    margin-bottom: 10px;
-    padding: 0;
-    background-color: #333;
-    height: 30px;
-    width: 100%;
-    font-size: 0.9em;
-}
-#togglebutton {
-    background: black;
-    display: flex;
-    position: absolute;
-    right: 0;
-    top: 0;
-  } */
-/* .toggle-button {
+#SkillsContent h2 {
     font-size: 24px;
-    color: white;
-    background-color: grey;
-    cursor: pointer;
-  } */
-
-/* #NavigationBar ul  > li {
-	display: flex;
-    width: 100%;
-	
-	color: white; 
-	height: 100%;
-	text-align: center;
-	vertical-align:middle;
-} */
-/* #NavigationBar a.active {
-  color: ;
-} */
-a:link {
-    color: white;
+    font-weight: bold;
+    margin-bottom: 10px;
 }
 
-a:visited {
-    color: white;
+#SkillsContent ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
 }
 
-a:hover {
-    color: darkgreen;
+#SkillsContent li {
+    margin-bottom: 5px;
+}
+
+#SkillsContent li:before {
+    content: "\2022";
+    /* Add bullet point before each list item */
+    margin-right: 5px;
+    color: #333;
 }
 
 #PageTitle {
@@ -125,6 +103,7 @@ a:hover {
 }
 
 #Splash_image img {
+    padding-top: 5px;
     -webkit-filter: grayscale(100%);
     filter: grayscale(100%);
     -webkit-transition: .3s ease-in-out;
