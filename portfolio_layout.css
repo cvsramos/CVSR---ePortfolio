@@ -8,6 +8,7 @@ Created: February, 15, 2023
     grid-area: title;
     text-align: center;
 }
+
 .item2 {
     grid-area: contact;
 }
@@ -31,31 +32,61 @@ Created: February, 15, 2023
 .item7 {
     grid-area: experience;
 }
-@media only screen and (max-width: 767px)  {
+
+/* Media Queries */
+/* Mobile */
+@media only screen and (max-width: 480px) {
     body {
-    background-color: lightgray;
-    }
-}
-/* Grid Container */
-@media only screen and (min-width: 768px)  {
-    body {
-    background-color: grey;
+        background-color: lightgrey;
     }
 
-.grid-container {
-    font-family: 'Hanken Grotesk', 'Courier', 'Cambria';
-    display: grid;
-    grid-template-areas:
-        'title title title'
-        'contact profile profile'
-        'skills experience experience'
-        'education experience experience'
-        'education experience experience'
-        'languages experience experience';
-    gap: 10px;
-    background-color: grey;
-    padding: 10px;
-    width: 80%;
-    margin-left: 10%;
+    #myLinks {
+        display: none;
+    }
+    .icon {
+        display: block;
+      }
 }
+
+/* Tablet */
+@media only screen and (min-width: 481px) and (max-width: 768px) {
+    body {
+        background-color: grey;
+    }
+    #myLinks {
+        display: none;
+    }
+    .icon {
+        display: block;
+      }
+}
+
+/* Desktop */
+@media only screen and (min-width: 769px) {
+    body {
+        background-color: white;
+    }
+    #myLinks {
+        display: flex;
+    }
+    .icon {
+        display: none;
+      }
+
+    .grid-container {
+        font-family: 'Hanken Grotesk', 'Courier', 'Cambria';
+        display: grid;
+        grid-template-areas:
+            'title title title'
+            'contact profile profile'
+            'skills experience experience'
+            'education experience experience'
+            'education experience experience'
+            'languages experience experience';
+        gap: 10px;
+        background-color: grey;
+        padding: 10px;
+        width: 80%;
+        margin-left: 10%;
+    }
 }
