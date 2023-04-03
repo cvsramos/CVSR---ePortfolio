@@ -8,10 +8,9 @@ Created: February, 15, 2023
 /* Mobile */
 @media only screen and (max-width: 480px) {
     body {
-        background-color: lightgrey;
+        /* background-color: lightgrey; */
     }
-
-    #myLinks {
+    .NavigationBar #myLinks {
         display: none;
     }
     .icon {
@@ -22,9 +21,9 @@ Created: February, 15, 2023
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
     body {
-        background-color: grey;
+        /* background-color: grey; */
     }
-    #myLinks {
+    .NavigationBar #myLinks {
         display: none;
     }
     .icon {
@@ -35,29 +34,12 @@ Created: February, 15, 2023
 /* Desktop */
 @media only screen and (min-width: 769px) {
     body {
-        background-color: white;
+        /* background-color: white; */
     }
-    #myLinks {
-        display: flex;
+    .NavigationBar #myLinks {
+        display: block;
     }
     .icon {
         display: none;
       }
-
-    .grid-container {
-        font-family: 'Hanken Grotesk', 'Courier', 'Cambria';
-        display: grid;
-        grid-template-areas:
-            'title title title'
-            'contact profile profile'
-            'skills experience experience'
-            'education experience experience'
-            'education experience experience'
-            'languages experience experience';
-        gap: 10px;
-        background-color: grey;
-        padding: 10px;
-        width: 80%;
-        margin-left: 10%;
-    }
 }

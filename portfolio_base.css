@@ -2,10 +2,9 @@
 
 /* CSS Document for Carlos Ramos' Portfolio*/
 body {
-    background-color: rgba(39, 6, 6, 0.3);
     font: 100%/1.4 'LektonRegular', Arial, Helvetica, sans-serif;
     color: black;
-}
+    }
 
 /* Font Styles */
 @font-face {
@@ -20,7 +19,7 @@ body {
 
 /* Style the navigation menu */
 .NavigationBar {
-    font: LektonRegular, sans-serif;
+    font: 'LektonRegular', sans-serif;
     overflow: hidden;
     background-color: black;
     position: relative;
@@ -28,7 +27,7 @@ body {
 
 /* Hide the links inside the navigation menu (except for logo/home) */
 .NavigationBar #myLinks {
-    display: none;
+    display: block;
 }
 
 /* Style navigation menu links */
