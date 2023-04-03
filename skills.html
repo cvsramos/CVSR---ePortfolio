@@ -8,16 +8,21 @@
 </head>
 
 <body>
-    <div id="NavigationBar">
-        <ul>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="goals.html">Goals</a></li>
-            <li><a href="skills.html">Skills</a></li>
-            <li><a href="resume.html">Resume</a></li>
-            <li><a href="accomp.html">Accomplishments</a></li>
-            <li><a href="contact.html">Contact</a></li>
-        </ul>
-    </div>
+    <div class="NavigationBar">
+        <a href="index.html" class="active">Home</a>
+        <!-- Navigation links (hidden by default) -->
+        <div id="myLinks">
+          <a href="goals.html">Goals</a>
+          <a href="skills.html">Skills</a>
+          <a href="resume.html">Resume</a>
+          <a href="accomp.html">Accomplishments</a>
+          <a href="contact.html">Contact</a>
+        </div>
+        <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+        <a href="javascript:void(0);" class="icon" onclick="toggleNavigation()">
+          <i class="fa fa-bars"></i>
+        </a>
+      </div>
     <div id="Splash_image">
         <img src="https://media.discordapp.net/attachments/1064535877927305347/1064536930349494292/RaPoZaUm_futuristic_fox_3_6f21ff64-2034-4335-8449-50240f7b6e14.png"
             width="250" alt="Image of a Futuristic Fox">
