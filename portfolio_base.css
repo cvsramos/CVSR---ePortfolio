@@ -66,7 +66,9 @@ body {
 }
 
 #SkillsContent, #IndexPage, #goals, #Resume, #Accomplishments, #Contact, #Form {
-    margin: 20px;
+    ;
+    max-width: 800px;
+    margin: auto;
     padding: 10px;
     background-color: #f2f2f2;
     border: 1px solid #ddd;
@@ -96,7 +98,7 @@ body {
 }
 
 #IndexPage, #Resume, #SkillsContent, #Contact, #Accomplishments, #goals  {
-    font-family: Rubik, LektonRegular, sans-serif;
+    font-family: 'Rubik', 'LektonRegular', sans-serif;
     font-size: 16px;
 }
 
