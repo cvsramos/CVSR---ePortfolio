@@ -19,7 +19,7 @@ body {
 
 /* Style the navigation menu */
 .NavigationBar {
-    font: 'LektonRegular', sans-serif;
+    font-family: 'LektonRegular', sans-serif;
     overflow: hidden;
     background-color: black;
     position: relative;
