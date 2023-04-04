@@ -16,7 +16,12 @@ body {
     font-display: swap;
     src: url('https://fonts.gstatic.com/s/rubik/v14/iJWKBXyIfDnIV7nBrXyw023e.woff2') format('woff2');
   }
-
+.hint {
+    text-align: center;
+    font-size: 12px;
+    font-style: italic;
+    color: #666;
+    }
 /* Style the navigation menu */
 .NavigationBar {
     font-family: 'LektonRegular', sans-serif;
@@ -108,23 +113,7 @@ body {
     list-style-type: none; 
 }
 
-#PageTitle {
-    text-align: center;
-}
-
-#Welcome {
-    text-align: center;
-}
-
-#Splash_image {
-    text-align: center;
-}
-
-#Splash_image:hover {
-    color: aqua;
-}
-
-#lipsum {
+#PageTitle, #Welcome, #Splash_image, #lipsum {
     text-align: center;
 }
 
