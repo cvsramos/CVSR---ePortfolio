@@ -61,12 +61,11 @@ body {
     color: white;
 }
 
-#Resume {
+#Resume, #Contact {
     text-align: center;
 }
 
 #SkillsContent, #IndexPage, #goals, #Resume, #Accomplishments, #Contact, #Form {
-    ;
     max-width: 800px;
     margin: auto;
     padding: 10px;
