@@ -7,9 +7,6 @@ Created: February, 15, 2023
 /* Media Queries */
 /* Mobile */
 @media only screen and (max-width: 480px) {
-    body {
-        /* background-color: lightgrey; */
-    }
     .NavigationBar #myLinks {
         display: none;
     }
@@ -20,9 +17,6 @@ Created: February, 15, 2023
 
 /* Tablet */
 @media only screen and (min-width: 481px) and (max-width: 768px) {
-    body {
-        /* background-color: grey; */
-    }
     .NavigationBar #myLinks {
         display: none;
     }
@@ -33,9 +27,6 @@ Created: February, 15, 2023
 
 /* Desktop */
 @media only screen and (min-width: 769px) {
-    body {
-        /* background-color: white; */
-    }
     .NavigationBar #myLinks {
         display: block;
     }
